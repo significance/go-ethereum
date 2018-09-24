@@ -234,6 +234,7 @@ func TestConfigFileOverrides(t *testing.T) {
 	}
 
 	if info.DbCapacity != 9000000 {
+		//todo - fix this!
 		t.Fatalf("Expected network ID to be %d, got %d", 54, info.NetworkID)
 	}
 
